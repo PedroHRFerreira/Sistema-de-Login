@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Krona+One&family=Lemon&family=Montserrat:wght@500&family=Oswald:wght@500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background: linear-gradient(0.25turn, #1a2a6c, #b21f1f, #000000);
+  text-align: center;
+}
+.section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.content {
+  margin: 30px auto 0 auto;
+  padding: 10px 10px 10px 10px;
+  width: 400px;
+}
+.title-login {
+  font-size: 2rem;
+  color: #3f87a6;
+  font-family: "Lemon", serif;
+}
+.content_form {
+  margin-top: 40px;
+  padding: 20px 5px 0 5px;
+  width: 100%;
+}
+.form_content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.content_modal {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  max-width: 450px;
+  width: 100%;
+}
+.text-login {
+  text-align: left;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 5px;
+  font-size: 1.1rem;
+  color: aquamarine;
+  font-family: "Lemon", serif;
+}
+input {
+  font-size: 0.9rem;
+  font-family: "Lemon", serif;
+}
+.input-login {
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.input-button {
+  font-family: "Lemon", serif;
+  font-size: 1rem;
+  background: #b21f1f;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: aqua;
+  padding: 8px;
+  margin-top: 15px;
+  border: 1.5px solid black;
+  border-radius: 7px;
+  outline: none;
+  cursor: pointer;
+}
+.input-button:hover {
+  border: 1.5px solid aqua;
+}
