@@ -11,4 +11,4 @@ Certifique-se de ter os seguintes requisitos instalados antes de começar:
 
 ### Caso tiver o php instalado na máquina
 
--rodar o comando no terminal(php -S localhost:8000) 
+- [rodar o comando no terminal] - (php -S localhost:8000) 
