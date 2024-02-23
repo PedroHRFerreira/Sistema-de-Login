@@ -43,7 +43,7 @@ if (isset($_POST['submit']))
         <div class="content">
             <h1 class="title-login">Cadastro de login</h1>
             <div class="content_form">
-                    <form class="form_content" action="login.php" method="POST">
+                    <form class="form_content" action="index.php" method="POST">
                         <div class="content_modal">
                             <label class="text-login" for="nome">Nome:</label>
                             <input  class="input-login" type="text" id="nome" name="nome"  placeholder="Digite seu nome" >
