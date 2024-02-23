@@ -1,6 +1,6 @@
 <?php
 
-include_once 'config.php';
+include_once 'config/config.php';
 
 if (isset($_POST['submit']))
 {
@@ -34,10 +34,9 @@ if (isset($_POST['submit']))
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
 </head>
 <body>
-
 <main>
     <div class="section">
         <div class="content">
@@ -72,6 +71,8 @@ if (isset($_POST['submit']))
                             <button class="input-button" type="submit" name="submit">Cadastrar</button>
                         </div>
                     </form>
+                    <a class="link" href="/index.php">voltar</a>
+                    <img src="/image/de-volta.png" alt="Voltar" />
             </div>
         </div>
     </div>

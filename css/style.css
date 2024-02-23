@@ -41,6 +41,7 @@ body {
   border-radius: 15px;
   max-width: 450px;
   width: 100%;
+  gap: 10px;
 }
 .text-login {
   text-align: left;
@@ -74,4 +75,26 @@ input {
 }
 .input-button:hover {
   border: 1.5px solid aqua;
+}
+.before {
+  background: aqua;
+  content: "";
+  max-width: 400px;
+  width: 100%;
+  height: 1px;
+}
+.link {
+  color: aqua;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 8px 12px 8px 12px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+.link:hover {
+  color: black;
+}
+.link_content {
+  margin-top: 50px;
+  padding: 10px;
 }
