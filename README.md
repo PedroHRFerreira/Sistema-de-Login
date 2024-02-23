@@ -12,3 +12,7 @@ Certifique-se de ter os seguintes requisitos instalados antes de começar:
 ### Caso tiver o php instalado na máquina
 
 - [Rodar o comando no terminal](https://www.php.net/) - php -S localhost:8000
+
+### Link do site 
+
+- [Link do site](http://localhost:3000/Site%20real/index.php) - click
