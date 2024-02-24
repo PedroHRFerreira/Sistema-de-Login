@@ -68,11 +68,17 @@ if (isset($_POST['submit']))
                             <input class="input-login" type="number" id="cep" name="cep"  placeholder="Informe seu cep" >
 
 
-                            <button class="input-button" type="submit" name="submit">Cadastrar</button>
+                            <div class="content-link-button">
+                                <button class="input-button" type="submit" name="submit">
+                                        Cadastrar
+                                </button>
+
+                                <a class="input-button imagem" href="/index.php">Voltar<img width="25px" src="/image/de-volta.png" alt="Voltar" /></a>
+
+                            </div>
+                          <div class="before"><div/>
                         </div>
                     </form>
-                    <a class="link" href="/index.php">voltar</a>
-                    <img src="/image/de-volta.png" alt="Voltar" />
             </div>
         </div>
     </div>

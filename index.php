@@ -10,7 +10,7 @@
     <main>
       <div class="section">
         <div class="content">
-          <h1 class="title-login">Cadastro de login</h1>
+          <h1 class="title-login">Login</h1>
           <div class="content_form">
               <div class="content_modal">
                 <label class="text-login" for="email">Email:</label>
@@ -30,15 +30,15 @@
                   name="senha"
                   placeholder="Digite sua senha"
                 />
-
+                <div class="content-link-button">
                 <button class="input-button" type="submit" name="submit">
                   Cadastrar
                 </button>
-                <div class="before"><div/>
-                <div class="link_content">
-                <a class="link" href="login/login.php">Não tenho conta</a>
-                <div/>
+
+                <a class="input-button imagem" href="login/login.php">Não tenho conta<img width="25px" src="/image/adicionar-usuario.png" alt="criação de conta" /></a>
+
               </div>
+              <div class="before"><div/>
             </form>
           </div>
         </div>
