@@ -78,9 +78,7 @@ if (isset($_POST['submit']))
                             </div>
                           <div class="before"><div/>
                         </div>
-                    
-                    
-                    
+                             
                     </form>
             </div>
         </div>
