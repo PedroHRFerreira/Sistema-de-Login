@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/mediaIndex.css" />
   </head>
   <body>
     <main>
-      <div class="section">
+    <div class="content-timeline">
+        <div class="timeline-outside">
+        <div class="cicule-before"></div>
+        </div>
+        <div class="timeLine-before"></div>
+    </div>
+      <div class="section-index">
         <div class="content">
           <h1 class="title-login">Login</h1>
           <div class="content_form">
@@ -38,12 +45,12 @@
                 <a class="input-button imagem" href="login/login.php">Não tenho conta<img width="25px" src="/image/adicionar-usuario.png" alt="criação de conta" /></a>
 
               </div>
-              <div class="before"><div/>
+              <div class="before"></div>
             </form>
           </div>
         </div>
       </div>
     </main>
   </body>
-  <script src="login/script.js"></script>
+  <script src="IndexJS/main.js"></script>
 </html>

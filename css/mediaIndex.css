@@ -1,0 +1,11 @@
+@media (max-width: 430px) {
+  .content-timeline,
+  .timeline-outside,
+  .cicule-before,
+  .timeLine-before {
+    display: none;
+  }
+  .section-index {
+    width: 100%;
+  }
+}

@@ -7,10 +7,58 @@ body {
   background: linear-gradient(0.25turn, #cccccc, #000000);
   text-align: center;
 }
-.section {
-  min-height: 100vh;
+main {
   width: 100%;
   display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.content-timeline {
+  margin: 140px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.timeline-outside {
+  border: 1px solid #000000;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timeline-hover .cicule-before,
+.timeline-hover .timeLine-before,
+.timeline-hover .timeline-outside {
+  border: 1px solid #cccccc;
+}
+
+.cicule-before {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: linear-gradient(0.25turn, #cccccc, #000000);
+}
+.timeLine-before {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(0.25turn, #cccccc, #000000);
+  content: "";
+  height: 250px;
+  width: 3px;
+}
+.section-index {
+  display: flex;
+  align-items: center;
+}
+.section {
+  min-height: 100vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
 }
 .content {
   margin: 30px auto 0 auto;
@@ -20,7 +68,7 @@ body {
 }
 .title-login {
   font-size: 2rem;
-  color: aqua;
+  color: #001900;
   font-family: "Lemon", serif;
 }
 .content_form {
