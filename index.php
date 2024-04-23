@@ -46,7 +46,6 @@
 
               </div>
               <div class="before"></div>
-            </form>
           </div>
         </div>
       </div>
