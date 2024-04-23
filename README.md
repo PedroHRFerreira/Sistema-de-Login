@@ -1,6 +1,4 @@
-# Nome do Seu Projeto
-
-Sistema de login com banco de dados
+# Sistema de login com banco de dados
 
 ## Pré-requisitos
 
